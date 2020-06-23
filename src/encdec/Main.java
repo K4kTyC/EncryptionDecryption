@@ -1,4 +1,4 @@
-package encryptdecrypt;
+package src.encdec;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,14 +1,14 @@
 package src.DataProcessing;
 
-import src.encdec.IEncDecAlgorithm;
+import src.EncDecAlgorithms.IEncDecAlgorithm;
 
-class Encrypting extends DataProcessing {
+public class Encrypting extends DataProcessing {
 
     public Encrypting(IEncDecAlgorithm algorithm) {
         super(algorithm);
     }
 
-    protected String processData(String data, int key) {
+    public String processData(String data, int key) {
         return algorithm.encrypt(data, key);
     }
 }

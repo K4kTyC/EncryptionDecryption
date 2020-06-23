@@ -1,6 +1,6 @@
 package src.EncDecAlgorithms;
 
-class ShiftAlgorithm implements IEncDecAlgorithm {
+public class ShiftAlgorithm implements IEncDecAlgorithm {
 
     public String encrypt(String msg, int key) {
         StringBuilder newMsg = new StringBuilder();

@@ -1,8 +1,8 @@
 package src.DataProcessing;
 
-import src.encdec.IEncDecAlgorithm;
+import src.EncDecAlgorithms.IEncDecAlgorithm;
 
-abstract class DataProcessing {
+public abstract class DataProcessing {
 
     protected IEncDecAlgorithm algorithm;
 
@@ -10,5 +10,5 @@ abstract class DataProcessing {
         this.algorithm = algorithm;
     }
 
-    protected abstract String processData(String data, int key);
+    public abstract String processData(String data, int key);
 }

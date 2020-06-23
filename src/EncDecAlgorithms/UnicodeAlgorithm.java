@@ -1,6 +1,6 @@
 package src.EncDecAlgorithms;
 
-class UnicodeAlgorithm implements IEncDecAlgorithm {
+public class UnicodeAlgorithm implements IEncDecAlgorithm {
 
     public String encrypt(String msg, int key) {
         StringBuilder newMsg = new StringBuilder();

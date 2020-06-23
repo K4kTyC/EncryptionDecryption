@@ -1,11 +1,7 @@
 package src;
 
-import src.DataProcessing.DataProcessing;
-import src.DataProcessing.Decrypting;
-import src.DataProcessing.Encrypting;
-import src.EncDecAlgorithms.IEncDecAlgorithm;
-import src.EncDecAlgorithms.ShiftAlgorithm;
-import src.EncDecAlgorithms.UnicodeAlgorithm;
+import src.DataProcessing.*;
+import src.EncDecAlgorithms.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,7 +17,7 @@ public class Main {
         String mode = "enc";
         IEncDecAlgorithm algorithm = new ShiftAlgorithm();
         StringBuilder data = new StringBuilder();
-        String newMsg = "";
+        String newMsg;
         int key = 0;
         File fin = null;
         File fout = null;

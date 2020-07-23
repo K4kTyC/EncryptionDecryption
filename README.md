@@ -8,7 +8,7 @@ Program works differently, according to provided arguments.
 ![](demonstration.gif)
 
 ## Arguments
-1. `-mod` ***Target operation (enc - encryption, dec - decryption)*** | _default = enc_
+1. `-mode` ***Target operation (enc - encryption, dec - decryption)*** | _default = enc_
 2. `-key` ***Algorithm shifts each letter by this number*** | _default = 0_
 3. `-data` ***String to be encrypted / decrypted*** | _default = ""_
 4. `-in` ***Full name of a file to read data*** | _If there are both -data and -in arguments, program prefers -data over -in_

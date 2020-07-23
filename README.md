@@ -1,5 +1,5 @@
 # EncryptionDecryption
-EncryptionDecryption project from JetBrains Academy (Java dev).
+[EncryptionDecryption project](https://hyperskill.org/projects/46?track=1) from JetBrains Academy (Java dev).
 
 Program encrypts and decrypts provided data using simple algorithms.
 It interacts with user through CLI.

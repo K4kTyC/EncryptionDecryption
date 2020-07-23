@@ -5,6 +5,8 @@ Program encrypts and decrypts provided data using simple algorithms.
 It interacts with user through CLI.
 Program works differently, according to provided arguments.
 
+![](demonstration.gif)
+
 ## Arguments
 1. `-mod` ***Target operation (enc - encryption, dec - decryption)*** | _default = enc_
 2. `-key` ***Algorithm shifts each letter by this number*** | _default = 0_
